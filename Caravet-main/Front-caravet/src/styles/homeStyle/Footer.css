@@ -1,0 +1,67 @@
+/* Estilo para el footer */
+.footer {
+    background-color: #1a1a2e; /* Color de fondo oscuro con un toque de azul oscuro */
+    color: #e0e1dd; /* Color de texto claro para contraste */
+    padding: 20px;
+  }
+  
+  /* Estilo para el contenido del footer */
+  .footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  
+  /* Estilo para cada sección del footer */
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  /* Estilo para los títulos de sección */
+  .footer-section h3 {
+    font-size: 1.3rem;
+    color: #a4a9ad; /* Color gris azulado */
+    text-transform: uppercase;
+    border-bottom: 1px solid #a4a9ad; /* Subrayado para los títulos */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para los párrafos y listas */
+  .footer-section p, .footer-section ul {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Estilo para los enlaces de redes sociales */
+  .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .social-links a {
+    color: #e0e1dd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #00a8e8; /* Color cian brillante al pasar el mouse */
+  }
+  
+  /* Estilo para la parte inferior del footer */
+  .footer-bottom {
+    border-top: 1px solid #a4a9ad;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  

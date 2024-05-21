@@ -1,0 +1,33 @@
+.contenido1-home {
+  display: flex;
+  /* Habilita flexbox */
+  justify-content: center;
+  /* Alinea al centro horizontalmente */
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+.contenido1-home h1 {
+  color: rgba(255, 166, 0, 0.792);
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.seguros-home {
+  text-align: center;
+  width: 500px;
+  margin-top: 70px;
+}
+
+.contenido1-home a:hover {
+  color: blueviolet;
+}
+
+.contenido1-home p{
+
+font-weight: 400;
+}

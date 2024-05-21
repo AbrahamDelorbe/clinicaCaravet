@@ -1,0 +1,293 @@
+* {
+
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/* logo home */
+
+.contenedor-img-logo-home {
+    justify-content: center;
+    align-items: center;
+    display: none;
+  
+}
+
+
+.img-logo-home {
+
+    border-radius: 0px 0px 20px 20px;
+    z-index: 1000;
+    width: 80px;
+    width: auto;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*img perfil*/
+
+.img-perfil-home {
+
+    margin-right: auto;
+    display: flex;
+
+}
+
+.img-perfil-home h3 {
+    margin-left: 20px;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+.img-perfil-home img {
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para el menú de navegación */
+nav {
+    position: fixed;
+    /* Posición fija para mantener el menú en la parte superior derecha */
+    top: 0;
+    /* Posiciona el menú en la parte superior */
+    right: 0;
+    /* Posiciona el menú en la parte derecha */
+    background-color: #1a1a2ef6;
+    /* Fondo semitransparente */
+    padding: 10px;
+    /* Espaciado interno */
+    border-radius: 0;
+    /* Sin bordes redondeados */
+    width: 100%;
+    /* Ancho ajustado al contenido */
+    z-index: 1000;
+    /* Asegura que el menú esté por encima de otros elementos */
+    display: flex;
+}
+
+/* Estilo de la lista de elementos del menú */
+nav ul {
+    list-style: none;
+    /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Permite que los elementos de la lista se alineen horizontalmente */
+}
+
+/* Estilo de los elementos de la lista del menú */
+nav ul li {
+    margin-right: 10px;
+    /* Espaciado entre elementos */
+}
+
+/* Estilos de los enlaces del menú */
+nav ul li a {
+    color: white;
+    /* Color del texto de los enlaces */
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    padding: 5px 15px;
+    /* Espaciado interno */
+    border-radius: 3px;
+    /* Bordes redondeados */
+}
+
+/* Estilo de los enlaces al pasar el cursor */
+nav ul li a:hover {
+    background-color: #575757;
+    /* Fondo de los enlaces al pasar el cursor */
+}
+
+
+
+.LinkSinSubrayado{
+text-decoration: none;
+color: inherit;
+}
+
+
+/* estilos del carusel  */
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.slider-box {
+    position: relative;
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    margin: 50px auto 0;
+    margin-top: 0;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+
+.slider-box ul {
+    animation: slide 40s infinite alternate;
+    width: 400%;
+    padding: 0;
+    display: flex;
+}
+
+.slider-box li {
+    width: 100%;
+    position: relative;
+    list-style: none;
+}
+
+
+.textos {
+
+    background-color: #1a1a2ec3;
+    width: auto;
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 1.7s ease;
+    border-radius: 0px 50px 50px 0px;
+}
+
+
+.textos:hover{
+    
+    background-color: #1a1a2e;
+   
+}
+
+.textos h2 {
+
+    font-size: 45px;
+    margin-bottom: 35px;
+color: #ffffff;
+}
+
+.slider-box img {
+    width: 1100px;
+    height: 700px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+@keyframes slide {
+
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+
+
+}
+
+
+.contenedor-frontal{
+
+display: flex;
+
+margin-top: 100px;
+
+}
+
+.articulo1{
+
+width: 355px;
+height: 700px;
+padding: 20px;
+margin: 20px;
+font-weight: 500;
+background-color: #ffffff57;
+border: 1px solid black;
+}
+
+
+
+
+

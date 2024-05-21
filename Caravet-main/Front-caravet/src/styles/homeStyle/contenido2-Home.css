@@ -1,0 +1,106 @@
+.contenedor2 {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 0px; 
+    margin: 150px;
+    flex-wrap: wrap;
+  }
+  
+  
+  .column {
+    flex: 1; 
+    margin: 0 10px; 
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+    
+  }
+
+
+.column h1{
+
+  color: #ffb835;
+}
+
+  
+
+  summary{
+
+    list-style: none;
+    transition: 2s ease;
+  }
+
+  summary h3::before{
+
+content: "+" ;
+padding-right: 1rem;
+  }
+
+
+  details[open] summary h3::before{
+
+    content: "-";
+    font-family: monospace;
+  }
+
+ 
+
+details{
+
+
+margin-bottom: 1.5rem;
+    border: 0px black solid;
+    box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
+padding: 5px;
+}
+
+
+
+
+  summary h3{
+
+color: black;
+    font-size: 20px;
+     transition: 0.5s ease-in-out;
+  }
+
+
+  summary h3:hover{
+ padding: 1px;
+    color: rgb(0, 0, 255); 
+      
+      }
+
+
+
+  .imgPromo {
+    overflow: hidden;
+background-color: #ffffff;
+border-radius: 50px 50px 0px 0px;
+width: 500%;
+height: auto;
+
+  }
+
+
+  .imgPromo img {
+    
+    width: 350px;
+    height: auto;
+    margin-right: 25rem;
+      }
+   
+
+      details p {
+
+        font-family:  libre baskerville;
+font-size: 20px;
+font-weight: 400;
+background-color: rgba(0, 0, 0, 0.521);
+padding: 17px;
+border: solid 0.5px rgba(0, 0, 0, 0.529);
+border-radius: 15px 0px 15px 0px;
+        color: white;
+      }

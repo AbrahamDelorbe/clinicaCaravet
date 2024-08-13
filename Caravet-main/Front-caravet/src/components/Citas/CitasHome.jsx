@@ -1,10 +1,16 @@
+import '../../styles/CitasStyles/CitasHome.css'
 
-import React from 'react'
 
 function CitasHome() {
   return (
-    <div>
-      <h1>citas</h1>
+    
+
+<div className="body-cita">
+
+ <h1>citas</h1>
+
+ <h2> Coming soon </h2>
+
     </div>
   )
 }

@@ -100,11 +100,7 @@ return <div className="contenedor-frontal">
 <img className ="img-logo-home" src="https://www.zarla.com/images/zarla-carevet-1x1-2400x2400-20220323-t7b98tfcjcvqdcqwkpq3.png?crop=1:1,smart&width=250&dpr=2" alt="" />
 <hr />
 <p>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ad, tempora molestiae ullam impedit laudantium quidem culpa sapiente, eaque voluptates voluptatum vel laborum delectus ex consectetur quasi numquam iure dignissimos.
-</p>
-
-<p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio modi ratione neque voluptatibus officiis ipsam, molestiae quam facere sapiente fuga eos voluptatum quos, incidunt soluta aliquam harum debitis voluptas nobis.
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ad, tempora molestiae ullam impedit laudantium quidem culpa sapiente, eaque voluptates voluptatum vel laborum delectus ex consectetur.
 </p>
 
 </div>

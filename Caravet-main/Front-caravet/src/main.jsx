@@ -7,6 +7,7 @@ import "./index.css";
 
 import Consejos from "./pages/Consejos.jsx";
 import CitasPage from "./pages/citas.jsx";
+import Buzon from "./components/buzon.jsx";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
@@ -16,6 +17,8 @@ const ruta = createBrowserRouter([
     path: "/",
     element: <App />,
   },
+
+{path:"/buzon", element: <Buzon />},
 
   {
     path: "/citas",
